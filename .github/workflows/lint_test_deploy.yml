@@ -1,0 +1,12 @@
+name: Lint, Test & Deploy
+on: push
+jobs:
+   all-in-one:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Lint
+              run: echo "Lint"
+            - name: Test
+              run: echo "Test"
+            - name: Build
+              run: echo "Build"   
