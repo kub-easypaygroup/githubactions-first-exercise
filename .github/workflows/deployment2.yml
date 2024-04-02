@@ -1,4 +1,4 @@
-name: Lint, Test & Deploy
+name: Lint, Test & Deploy (3 jobs)
 on: push
 jobs:
    Lint:
