@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Lint
-              run: echo "Lint"
+              uses: super-linter/super-linter@v6.3.0
             - name: Test
               run: echo "Test"
             - name: Build
